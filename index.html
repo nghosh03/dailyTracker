@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<!-- Trigger Pages rebuild: 2026-09-05T14:30:00Z -->
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 <title>Session Log</title>
@@ -609,7 +610,7 @@
 
     const navRow = document.createElement("div");
     navRow.className = "nav-row";
-    const label = `${MONTH_NAMES[weekStart.getMonth()].slice(0,3)} ${weekStart.getDate()} – ${weekEnd.getMonth()!==weekStart.getMonth() ? MONTH_NAMES[weekEnd.getMonth()].slice(0,3)+" " : ""}${weekEnd.getDate()}`;
+    const label = `${MONTH_NAMES[weekStart.getMonth()].slice(0,3)} ${weekStart.getDate()} – ${weekEnd.getMonth()!==weekStart.getMonth() ? MONTH_NAMES[weekEnd.getMonth()].slice(0,3)+" " : ""}${w[...]
     navRow.innerHTML = `
       <div class="nav-btn" id="prevWeek">&#8249;</div>
       <div class="period-label">${label}</div>
